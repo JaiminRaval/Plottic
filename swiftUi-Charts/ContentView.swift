@@ -5,7 +5,7 @@
 //  Created by Jaimin Raval on 21/08/22.
 //
 //  charts are currently in Beta in iOS 16.0
-//  Link to learning  video: https://youtu.be/UCSXF741iHI?si=mn2fa6cRVN8ldTdn
+//  Link to learning video: https://youtu.be/UCSXF741iHI?si=mn2fa6cRVN8ldTdn
 
 import SwiftUI
 import Charts
