@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,6 +26,12 @@
 		07BD7B8F28B160EC00BF2BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07BD7B9228B160EC00BF2BAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		074976072F8FF3C20090D06F /* Model */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Model; sourceTree = "<group>"; };
+		074976082F8FF3C80090D06F /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+		074976092F8FF3CC0090D06F /* ViewModels */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ViewModels; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		07BD7B8528B160E900BF2BAB /* Frameworks */ = {
@@ -57,6 +63,9 @@
 		07BD7B8A28B160E900BF2BAB /* swiftUi-Charts */ = {
 			isa = PBXGroup;
 			children = (
+				074976092F8FF3CC0090D06F /* ViewModels */,
+				074976082F8FF3C80090D06F /* Views */,
+				074976072F8FF3C20090D06F /* Model */,
 				07BD7B8B28B160E900BF2BAB /* swiftUi_ChartsApp.swift */,
 				07BD7B8D28B160E900BF2BAB /* ContentView.swift */,
 				07BD7B8F28B160EC00BF2BAB /* Assets.xcassets */,
@@ -90,6 +99,11 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				074976072F8FF3C20090D06F /* Model */,
+				074976082F8FF3C80090D06F /* Views */,
+				074976092F8FF3CC0090D06F /* ViewModels */,
 			);
 			name = "swiftUi-Charts";
 			productName = "swiftUi-Charts";
